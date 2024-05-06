@@ -1,14 +1,26 @@
-import { useState } from 'react'
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import "./App.css";
+import NavBar from "./Components/Navbar/NavBar";
+import Home from "./containers/Home/Home";
+import Speakers from "./containers/Speakers/Speakers";
+import Sponsors from "./Sponsors/Sponsors";
 
-import './App.css'
-import NavBar from './Components/Navbar/NavBar'
+
+
 
 function App() {
   return (
     <div>
-     <NavBar/>
+      <Router>
+        <NavBar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/speakers" element={<Speakers />} />
+          <Route path="/sponsors" element={<Sponsors />} />
+        </Routes>
+      </Router>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;
