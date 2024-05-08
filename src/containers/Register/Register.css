@@ -1,0 +1,25 @@
+.form-container{
+    height: fit-content;
+    justify-content: space-evenly;
+    background-color: #f84e45;
+    width: 20em;
+    padding: 2em;
+   left: 32em;
+}
+
+.register-container{
+    right: 32em;
+    margin: 12em;
+}
+
+.input{
+    padding: 20px;
+    margin: 2em;
+   
+}
+
+.title-register{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
