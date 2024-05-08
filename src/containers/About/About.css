@@ -10,6 +10,8 @@
     font-style: normal;
     font-size: 2em;
     margin: 2em;
+    border-radius: 20px
+    ;
     padding: 2em;
     color: white;
     background: linear-gradient(to bottom, #f84e45, rgba(211, 84, 16, 0.699));
