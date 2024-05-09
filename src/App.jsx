@@ -9,10 +9,12 @@ import About from "./containers/About/About";
 
 
 
+
 function App() {
   return (
     <div>
       <Router>
+       
         <NavBar />
         <Routes>
           <Route path="/" element={<Home />} />
@@ -21,6 +23,7 @@ function App() {
           <Route path="/register" element={<Registers/>} />
           <Route path="/about" element={<About/>}/>
         </Routes>
+        
       </Router>
     </div>
   );

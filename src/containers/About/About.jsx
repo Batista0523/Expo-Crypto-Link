@@ -2,8 +2,8 @@ import React from "react";
 import './About.css'
 function About() {
   return (
-    <div>
-      <h1 className="about-title">About Event </h1>
+    <div className="about-container">
+      <h1 className="about-title">Who Are We </h1>
       <p className="about-description">
         Expo Crypto Link is the blockchain conference network bringing together
         the key players of crypto industry and experts to redefine the future of

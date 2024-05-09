@@ -1,42 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
 
-
-
-
 .navbar-container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    /* background-color: #f84e45; */
-    padding: 10px 20px;
-    position: sticky;
-  }
-  
-  .navbar-container a {
-    text-decoration: none;
-    color:  #f84e45;
 
-    margin-right: 20px;
-    position: relative;
-    cursor: pointer;
-    font-family: "Press Start 2P", system-ui;
-    font-weight: 400;
-    font-style: normal;
-  }
-  
-  .navbar-container a:hover::after {
-    content: '';
-    position: relative;
-    left: 0;
-    bottom: -5px;
-    width: 100%;
-    height: 2px;
-    background-color: #fff;
-  }
-  
-  .navbar-container h3 {
-    margin: 0;
-  }
-  
+  display: flex;
+  background-color: #00203f;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+}
+
+/* 
+.top-navbar-container {
+  color: white;
+  margin-bottom: 10px;
+}
+
+.p-top-navbar {
+  justify-content: space-between;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 15px; 
+  font-size: 14px; 
+}
+
+.title-top-navbar {
+  margin-bottom: 0; 
+  font-size: 16px; 
+} */
+
+.links-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.links-container a {
+  text-decoration: none;
+  color: white;
+  margin-right: 50px;
+  position: relative;
+  cursor: pointer;
+  left: 37em;
+  top: 2em;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 700;
+}

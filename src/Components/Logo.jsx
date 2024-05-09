@@ -1,9 +1,8 @@
-import React from 'react'
+import React from "react";
 
 function Logo() {
   return (
     <div>
-      
       <svg
         xmlns="http://www.w3.org/2000/svg"
         version="1.1"
@@ -72,6 +71,7 @@ function Logo() {
                                       class="wordmark-text-0"
                                       data-fill-palette-color="primary"
                                       id="text-0"
+                                      fontFamily="Press Start 2P system-ui"
                                     ></path>
                                   </svg>
                                 </g>
@@ -182,7 +182,7 @@ function Logo() {
         </g>
       </svg>
     </div>
-  )
+  );
 }
 
-export default Logo
+export default Logo;

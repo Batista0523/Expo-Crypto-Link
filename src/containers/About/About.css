@@ -1,28 +1,31 @@
-.about-container{
-    height: 80vh;
+.about-container {
+    height: fit-content;
+    position: relative;
+   
+   background-color: bisque;
 }
 
 
 
-.about-description{
+.about-description {
     font-family: "Rubik", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
-    font-size: 2em;
+    font-size: 20px;
     margin: 2em;
-    border-radius: 20px
-    ;
-    padding: 2em;
-    color: white;
-    background: linear-gradient(to bottom, #f84e45, rgba(211, 84, 16, 0.699));
+    border-radius: 20px;
+    padding: 10em;
+    color: #00203f;
+    position: relative;
+    bottom: 5em;
 }
 
-.about-title{
+.about-title {
     font-family: "Press Start 2P", system-ui;
     font-weight: 400;
     font-style: normal;
     font-size: 2em;
     text-align: center;
-    /* color:  #f84e45; */
-   
+
+
 }

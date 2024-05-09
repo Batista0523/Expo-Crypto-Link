@@ -3,26 +3,38 @@ import Speakers from "../Speakers/Speakers";
 import Sponsors from "../../Sponsors/Sponsors";
 import Registers from "../Register/Registers";
 import About from "../About/About";
-
+import CountDown from "../Countdown/CountDown";
+import "./Home.css";
 function Home() {
   return (
     <div className="app-container">
-      <div className="home-container" id="">
+      <div className="home-container" id="home">
         {" "}
-        <h1>Home</h1>
+        <div className="info-home-container">
+          <CountDown />
+          <p className="home-p">
+            {" "}
+            25th of June, 2024 at 6:30 pm. Dubai, ATLANTIS, THE PALM
+          </p>
+          <h1 className="title-home">Expo Crypto Link</h1>
+          <p className="home-p">
+            {" "}
+            Unveiling the Future Where Crypto Visionaries Converge
+          </p>
+        </div>
       </div>
-     
-      <div className="sponsors-container" id="sponsors">
-        <Sponsors />
-      </div>
-      <div className="about-container" id="about">
+
+      <div id="about">
         <About />
       </div>
-      <div className="speakers-container" id="speakers">
+      <div id="speakers">
         <Speakers />
       </div>
-      <div className="register-container" id="register">
+      <div id="register">
         <Registers />
+      </div>
+      <div id="sponsors">
+        <Sponsors />
       </div>
     </div>
   );
